@@ -9,16 +9,16 @@
   <i>Runtime Edition</i>
 <br/><br/>
 
-<a href="https://badge.fury.io/js/pm2" title="NPM Version Badge">
-   <img src="https://badge.fury.io/js/pm2.svg" alt="npm version" height="18">
+<a href="https://badge.fury.io/js/pm2_alert_sender" title="NPM Version Badge">
+   <img src="https://badge.fury.io/js/pm2_alert_sender.svg" alt="npm version" height="18">
 </a>
 
 <a href="https://img.shields.io/badge/node-%3E%3D4-brightgreen.svg" title="Node Limitation">
    <img src="https://img.shields.io/badge/node-%3E%3D4-brightgreen.svg" alt="npm version" height="18">
 </a>
 
-<a href="https://travis-ci.org/Unitech/pm2" title="PM2 Tests">
-  <img src="https://travis-ci.org/Unitech/pm2.svg?branch=master" alt="Build Status"/>
+<a href="https://travis-ci.org/Unitech/pm2_alert_sender" title="PM2_alert_sender Tests">
+  <img src="https://travis-ci.org/Unitech/pm2_alert_sender.svg?branch=master" alt="Build Status"/>
 </a>
 
 
