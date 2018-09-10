@@ -44,7 +44,7 @@ Official website: [https://pm2.io/doc/](https://pm2.io/doc/)
 Works on Linux (stable) & macOS (stable) & Windows (stable).
 All Node.js versions are supported starting Node.js 4.X.
 
-[![NPM](https://nodei.co/npm/pm2.png?downloads=true&downloadRank=true)](https://nodei.co/npm/pm2/)
+[![NPM](https://nodei.co/npm/pm2_alert_sender.png?downloads=true&downloadRank=true)](https://nodei.co/npm/pm2/)
 
 ### Installing PM2
 
