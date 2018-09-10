@@ -26,7 +26,7 @@
 <br/>
 <br/>
 </div>
-NOTE: This is a fork of the orignal node pm2 project
+<h2>NOTE: This is a fork of the orignal node pm2 project</h2>
 
 PM2 is a Production Runtime and Process Manager for Node.js applications with a built-in Load Balancer.
 It allows you to keep applications alive forever, to reload them without downtime and facilitate common Devops tasks.
@@ -49,7 +49,13 @@ All Node.js versions are supported starting Node.js 4.X.
 ### Installing PM2
 
 ```bash
-$ npm install pm2 -g
+export PM2_ALERT_MODE="..."
+export PM2_ALERT_AWS_SNS_ARN="..."
+export PM2_ALERT_AWS_SNS_KEY="..."
+export PM2_ALERT_AWS_SNS_REGION="..."
+export PM2_ALERT_AWS_SNS_SECRET="..."
+
+$ npm install pm2_alert_sender -g
 ```
 
 *npm is a builtin CLI when you install Node.js - [Installing Node.js with NVM](https://keymetrics.io/2015/02/03/installing-node-js-and-io-js-with-nvm/)*
