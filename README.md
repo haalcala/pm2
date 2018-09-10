@@ -26,6 +26,7 @@
 <br/>
 <br/>
 </div>
+NOTE: This is a fork of the orignal node pm2 project
 
 PM2 is a Production Runtime and Process Manager for Node.js applications with a built-in Load Balancer.
 It allows you to keep applications alive forever, to reload them without downtime and facilitate common Devops tasks.
@@ -64,6 +65,21 @@ $ pm2 start app.js
 Your app is now daemonized, monitored and kept alive forever.
 
 [More about Process Management](https://pm2.io/doc/en/runtime/guide/process-management/?utm_source=github)
+
+### Added on this fork
+
+Alert notification when anything is written on the stderr and/or when the application exited/crash
+
+Step 1: Specify AWS-SNS notification details (the only currently supported)
+```bash
+export PM2_ALERT_MODE="..."
+export PM2_ALERT_AWS_SNS_ARN="..."
+export PM2_ALERT_AWS_SNS_KEY="..."
+export PM2_ALERT_AWS_SNS_REGION="..."
+export PM2_ALERT_AWS_SNS_SECRET="..."
+```
+
+Step 2: Start you app as usual
 
 ### Container Support
 

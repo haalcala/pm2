@@ -1,7 +1,7 @@
 {
-  "name": "pm2",
+  "name": "pm2_alert_sender",
   "preferGlobal": true,
-  "version": "3.1.0",
+  "version": "3.1.2",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -84,6 +84,10 @@
     {
       "name": "Chris Wiggins",
       "email": "chris@chriswiggins.co.nz"
+    },
+    {
+      "name": "Harold Alcala",
+      "email": "harold.alcala@gmail.com"
     }
   ],
   "homepage": "http://pm2.keymetrics.io/",
@@ -202,7 +206,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Unitech/pm2.git"
+    "url": "git@github.com:haalcala/pm2.git"
   },
   "license": "AGPL-3.0"
 }
