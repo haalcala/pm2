@@ -49,7 +49,7 @@ All Node.js versions are supported starting Node.js 4.X.
 ### Installing PM2
 
 ```bash
-export PM2_ALERT_MODE="..."
+export PM2_ALERT_MODE="aws-sns"
 export PM2_ALERT_AWS_SNS_ARN="..."
 export PM2_ALERT_AWS_SNS_KEY="..."
 export PM2_ALERT_AWS_SNS_REGION="..."
@@ -78,7 +78,7 @@ Alert notification when anything is written on the stderr and/or when the applic
 
 Step 1: Specify AWS-SNS notification details (the only currently supported)
 ```bash
-export PM2_ALERT_MODE="..."
+export PM2_ALERT_MODE="aws-sns"
 export PM2_ALERT_AWS_SNS_ARN="..."
 export PM2_ALERT_AWS_SNS_KEY="..."
 export PM2_ALERT_AWS_SNS_REGION="..."
